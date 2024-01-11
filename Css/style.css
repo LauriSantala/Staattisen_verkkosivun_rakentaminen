@@ -12,7 +12,27 @@ header{
     text-decoration: none;
     padding: 1em;
 }
-
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #333;
+    margin: auto; 
+}
+a:hover {
+    color:red;
+}
+a:visited {
+    color:red;
+}
+img {
+    width: 300px;
+    border:5px solid #333;
+}
+footer{
+    background-color: black;
+    color:white;
+    padding:20px;
+    text-align: center;
+}
 nav{
     background-color:tan;
     padding: 0.5em;
@@ -51,9 +71,6 @@ footer{
 .h2spe{
     background-color: tan;
     color:deeppink;
-}
-h2{
-    color:blue;
 }
 #main-header{
     background-color: antiquewhite;
