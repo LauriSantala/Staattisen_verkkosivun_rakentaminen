@@ -5,13 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flexbox</title>
     <style>
-        main, aside{
+        main{
             display: flex;
+        }
+        body{
+            margin: 0;
         }
         header{
             height: 100px;
             background-color: beige;
             text-align: center;
+        }
+        h1{
+            margin: 0;
         }
         footer{
             height: 100px;
@@ -25,16 +31,18 @@
         }
         .articles{
             flex: 5;
+            flex-direction: column;
         }
         .sidebars{
             flex: 1;
+            flex-direction: column;
         }
         ul{
             list-style-type:none;
         }
         li{
             padding:20px;
-            
+            font-weight: bold;
         }
 
     </style>
@@ -46,11 +54,11 @@
     <main>
         <aside class="sidebars">
             <ul>
-            <li><strong>side bar</strong></li>
-            <li><strong>side bar</strong></li>
-            <li><strong>side bar</strong></li>
-            <li><strong>side bar</strong></li>
-            <li><strong>side bar</strong></li>
+            <li>side bar</li>
+            <li>side bar</li>
+            <li>side bar</li>
+            <li>side bar</li>
+            <li>side bar</li>
             </ul>
         </aside>
 
