@@ -50,11 +50,11 @@ nav ul{
 }
 
 .top-menu li{
-    display: inline-block;
-    margin-right:0em;
+    margin-right:20px;
+    text-decoration: dotted;
 }
 .top-menu a{
-    text-decoration: none;
+    text-decoration: dotted;
     margin-right: 20px;
     font-weight: bold;
 }
@@ -104,4 +104,15 @@ footer{
 .hh{
     margin:0;
     font-size: 32px;
+}
+#indexbody{
+    background-color: antiquewhite;
+}
+.nav{
+    color: black;
+    font-size:small;
+}
+table{
+    margin: auto;
+    
 }
