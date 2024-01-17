@@ -112,7 +112,18 @@ footer{
     color: black;
     font-size:small;
 }
-table{
-    margin: auto;
-    
+.table th,.table td{
+   background-color: beige;
+   font-size: large;
+}
+form{
+    padding-left: 20px;
+}
+label{
+    font-weight: bold;
+}
+.submit{
+    margin-top: 10px;
+    color: #333;
+    font-weight: bold;
 }
